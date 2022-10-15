@@ -1,0 +1,43 @@
+<!--- set width and height of any html tag by following css properties but it don`t work on inline tags --->
+<!-- vh mean set height to view port and vw mean width, percentage mean take the width/height of relative parent tag or document -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        
+        body{
+            margin: 0;
+            padding: 5px;
+            width: 100%; 
+            height: 100%;
+            box-sizing: border-box;
+        }
+        ul,span,h1,div{
+        text-align: center;
+        border: 3px solid gold;
+        margin: 10px ;
+        display: block;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        i am div
+    </div>
+    <h1>
+        i am h1
+    </h1>
+    <span>i am span</span>
+    <ul>
+        <li>i am li inside ul</li>
+    </ul>
+ 
+</body>
+</html>
